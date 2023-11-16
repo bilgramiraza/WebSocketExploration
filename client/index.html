@@ -8,8 +8,17 @@
   </head>
   <body>
     <h1>Hello WebSockets</h1>
-    <div id="messages"></div>
-    <input type="text" id="message">
+    <h2>Status: <span id="status"></span></h2>
+    <ul id="messages"></ul>
+    <div>
+      <label>
+        Username:
+        <input type="text" id="username" value="John">
+      </label>
+    </div>
+    <label>
+      <input type="text" id="message">
+    </label>
     <button id="send">Send Message</button>
     <script src="script.js"></script>
   </body>
